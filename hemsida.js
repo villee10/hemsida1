@@ -1,12 +1,7 @@
 
 
-
-let a = 1;
-let b = 2;
-
-
-function add(a, b) {
-    return a + b;
+document.addEventListener('DOMContentLoaded', function(){
+    const loginContainer = document.querySelector('.skapakontocontainer');
+    const registerContainer = document.querySelector('.registreracontainer');
+    const showRegister = document.querySelector('.registrera');
 }
-
-console.log(add(a, b));
